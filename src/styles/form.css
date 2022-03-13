@@ -1,0 +1,45 @@
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.formInput {
+  margin: 1em 0;
+}
+
+.fancyButton:hover {
+  letter-spacing: 0.8em;
+  background-color: #008000;
+}
+
+.fancyButton {
+  color: white;
+}
+button {
+  height: 4em;
+  width: 100%;
+  padding: 1.5em auto;
+  margin: 1em auto;
+  background-color: #6a8a4b;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+input[type="text"] {
+  width: 100%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #008000;
+  box-shadow: 0 0 8px 0 #008000;
+}

@@ -1,0 +1,23 @@
+span {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Roboto";
+  border-radius: 50%;
+  background: #fff;
+}
+
+.add {
+  cursor: pointer;
+  color: #008000;
+  border: 3px solid #008000;
+  font-size: 40px;
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  -moz-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}

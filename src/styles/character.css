@@ -1,0 +1,28 @@
+img {
+  max-height: 250px;
+  width: auto;
+}
+
+.infoWrapper {
+  background-color: chartreuse;
+  height: 75px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 310px;
+  padding-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.title {
+  font-size: 2em;
+  padding: 0.5em 0px;
+  font-weight: bold;
+}
+
+.frase {
+  color: gray;
+  font-weight: bold;
+}
